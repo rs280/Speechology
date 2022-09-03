@@ -1,0 +1,40 @@
+{% include 'navbar.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles.css">
+    <title>Speechology</title>
+</head>
+
+<body>
+    <style>
+        .title{
+            margin-top: 3rem;
+            margin-left: 3rem;
+            font-size: 3rem;
+            color: white;
+        }
+        .text-body{
+            margin-top: 3rem;
+            margin-left: 3rem;
+            margin-right: 3rem;
+            font-size: 1.8rem;
+            color: rgb(223, 221, 221);
+            margin-bottom:10rem;
+        }
+    </style>
+    <p class="title">About </p>
+    <p class="title">How it works?</p>
+    <p class="text-body">
+        As the basic framework for our app, we used python's flask library.
+        The webpages are made and designed using HTML5 and CSS3
+        To analyse speeches, we used IBM's speech recognition to get the transcript, OpenCV to check face's position to calculate confidence score, grammar checker to check grammar lol.
+        </p>
+    <p class="title">Privacy Policy</p>
+    <p class="text-body">We assure that all the data of user that is taken is never stored in our database. The analysis part is done in real time, so we dont store that data even temporarily.</p>
+
+</body>
+</html>
